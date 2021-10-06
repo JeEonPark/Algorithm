@@ -11,7 +11,7 @@ def solution(lottos, win_nums):
     correct = 0
     for i in lottos:
         for j in win_nums:
-            if i == j:
+            if i == j: 
                 correct = correct + 1
     print(correct)
     
