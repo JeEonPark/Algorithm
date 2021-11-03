@@ -17,14 +17,8 @@ def solution(n, lost, reserve):
     
     #한쪽에서만 받을 수 있는 경우
     for i in lost:
-        #1일경우
-        if i == 1:
-            if 2 in reserve:
-                can_play=can_play + 1
-                lost.remove(i)
-                reserve.remove(2)
         #n일경우
-        elif i==n:
+        if i==n:
             if n-1 in reserve:
                 can_play=can_play + 1
                 lost.remove(n)
