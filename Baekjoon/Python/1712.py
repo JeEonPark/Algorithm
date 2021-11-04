@@ -2,10 +2,10 @@ def solution(n, lost, reserve):
     answer = 0
     
     for i in range(1,n+1): 
-        if i not in lost: #안잃어버린 새끼들 
+        if i not in lost: #안잃어버린 새끼들
             answer += 1
         else:
-            if i in reserve: #잃어버렸는데 리저브있는새끼들
+            if i in reserve: #잃어버렸는데 리저브있는 애들
                 reserve.remove(i)
                 lost.remove(i)
                 answer += 1
