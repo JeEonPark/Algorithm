@@ -11,7 +11,7 @@ def solution(n, lost, reserve):
                 answer += 1
 
     for i in lost: #잃어버린놈
-        if i-1 in reserve:  #잃어버린놈한테 주는놈
+        if i-1 in reserve:  #잃어버린놈한테 주는 애
             answer += 1
             reserve.remove(i-1)
             
