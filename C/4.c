@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
+
 void eliminate(char string[],char ch)
 {
     for (int i=0; i<strlen(string); i++)
