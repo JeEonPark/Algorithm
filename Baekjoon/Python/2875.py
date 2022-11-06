@@ -2,7 +2,6 @@ n, m, k = input().split()
 
 team_without_k = min([int(int(n)/2), int(m)])
 
-
 n_can_join = team_without_k * 2
 m_can_join = team_without_k
 
