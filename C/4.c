@@ -12,7 +12,6 @@ void eliminate(char string[],char ch)
             strcpy(string,string+1);
             string--;
         }
-        
     }
     
 }
