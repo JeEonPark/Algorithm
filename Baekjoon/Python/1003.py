@@ -12,7 +12,6 @@ def fibonacci(n):
     else:
         dp[n] = fibonacci(n-1) + fibonacci(n-2)
         return dp[n]
-    
 
 res = int(input())
 arr = []
