@@ -15,6 +15,7 @@ void eliminate(char string[],char ch)
     }
     
 }
+
 int main(void)
 {
     FILE * file= fopen("./sample.html","r");
