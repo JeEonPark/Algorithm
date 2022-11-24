@@ -14,7 +14,6 @@ def fibonacci(n):
         return dp[n]
 
 res = int(input())
-
 arr = []
 
 for i in range(0, res):
