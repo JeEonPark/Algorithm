@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
+
 void eliminate(char string[],char ch)
 {
     for (int i=0; i<strlen(string); i++)
@@ -11,10 +12,10 @@ void eliminate(char string[],char ch)
             strcpy(string,string+1);
             string--;
         }
-        
     }
     
 }
+
 int main(void)
 {
     FILE * file= fopen("./sample.html","r");
