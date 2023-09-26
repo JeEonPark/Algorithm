@@ -23,7 +23,7 @@ for i in range(0, res):
     fibonacci(arr[i])
     if arr[i] == 0:
         print("1 0")
-    elif arr[i] == 1:
+    elif arr[i] == 1
         print("0 1")
     else:
         fibonacci(arr[i])
